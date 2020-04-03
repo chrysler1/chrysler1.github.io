@@ -263,13 +263,13 @@ $(document).ready(function(e) {
 			async: false,
 			success: function (data) {
 				$('.success').fadeIn(400);
-				$('.failure').fadeOut(0);
+				// $('.failure').fadeOut(0);
 				//yaCounter37833555.reachGoal('ORDER'); return true;
 
 			},
 			error: function(data) {
 				$('.success').fadeOut(0);
-				$('.failure').fadeIn(400);
+				// $('.failure').fadeIn(400);
 			},
 			complete: function() {
 				// Clear form
